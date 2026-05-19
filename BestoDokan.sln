@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestoDokan", "BestoDokan\BestoDokan.csproj", "{185D57C2-DB1F-4746-9C4D-1ABB78C272B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6D972207-6EEE-436B-8A4B-1D33E387BC41} = {6D972207-6EEE-436B-8A4B-1D33E387BC41}
+		{E195C35C-E55C-460C-93BE-08EC57550336} = {E195C35C-E55C-460C-93BE-08EC57550336}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestoDokan.Domain", "BestoDokan.Domain\BestoDokan.Domain.csproj", "{6D972207-6EEE-436B-8A4B-1D33E387BC41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestoDokan.Application", "BestoDokan.Application\BestoDokan.Application.csproj", "{E195C35C-E55C-460C-93BE-08EC57550336}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6D972207-6EEE-436B-8A4B-1D33E387BC41} = {6D972207-6EEE-436B-8A4B-1D33E387BC41}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestoDokan.Infrastructure", "BestoDokan.Infrastructure\BestoDokan.Infrastructure.csproj", "{512FCCDC-5C1C-46CB-AC37-33D4F94C5336}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6D972207-6EEE-436B-8A4B-1D33E387BC41} = {6D972207-6EEE-436B-8A4B-1D33E387BC41}
+		{E195C35C-E55C-460C-93BE-08EC57550336} = {E195C35C-E55C-460C-93BE-08EC57550336}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{185D57C2-DB1F-4746-9C4D-1ABB78C272B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185D57C2-DB1F-4746-9C4D-1ABB78C272B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185D57C2-DB1F-4746-9C4D-1ABB78C272B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185D57C2-DB1F-4746-9C4D-1ABB78C272B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D972207-6EEE-436B-8A4B-1D33E387BC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D972207-6EEE-436B-8A4B-1D33E387BC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D972207-6EEE-436B-8A4B-1D33E387BC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D972207-6EEE-436B-8A4B-1D33E387BC41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E195C35C-E55C-460C-93BE-08EC57550336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E195C35C-E55C-460C-93BE-08EC57550336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E195C35C-E55C-460C-93BE-08EC57550336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E195C35C-E55C-460C-93BE-08EC57550336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{512FCCDC-5C1C-46CB-AC37-33D4F94C5336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{512FCCDC-5C1C-46CB-AC37-33D4F94C5336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{512FCCDC-5C1C-46CB-AC37-33D4F94C5336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{512FCCDC-5C1C-46CB-AC37-33D4F94C5336}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D52A8AB-1E5C-4BCF-9535-B25A42E122CC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+[33m834e286[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: Branch: renamed refs/heads/main to refs/heads/main
+[33m834e286[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{2}: commit: Updated Dashboard with Live Sales and Added CORS Policy
+[33me45967e[m HEAD@{3}: checkout: moving from development to main
+[33m6c1081c[m[33m ([m[1;32mdevelopment[m[33m)[m HEAD@{4}: commit: Complete BestoDokan backend with CORS and README
+[33me45967e[m HEAD@{5}: merge main: Fast-forward
+[33m6efa4a6[m HEAD@{6}: checkout: moving from main to development
+[33me45967e[m HEAD@{7}: commit: Updated various file and also and also added new features
+[33m6efa4a6[m HEAD@{8}: merge development: Fast-forward
+[33m112327b[m HEAD@{9}: checkout: moving from development to main
+[33m6efa4a6[m HEAD@{10}: commit: updated category mapping and models
+[33m112327b[m HEAD@{11}: checkout: moving from main to development
+[33m112327b[m HEAD@{12}: Branch: renamed refs/heads/master to refs/heads/main
+[33m112327b[m HEAD@{14}: commit: Initial Commit: Clean Architecture with Product CRUD
+[33md6dc3e0[m HEAD@{15}: initial pull

@@ -1,0 +1,6 @@
+@BestoDokan_HostAddress = http://localhost:5076
+
+GET {{BestoDokan_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
